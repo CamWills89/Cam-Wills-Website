@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/icons/cw1.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
@@ -31,7 +31,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <h2>CW</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

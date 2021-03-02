@@ -28,7 +28,7 @@ function Particle() {
             anim: {
               enable: true,
               speed: 1,
-              opacity_min: 0.05,
+              opacity_min: 0.5,
             },
           },
         },

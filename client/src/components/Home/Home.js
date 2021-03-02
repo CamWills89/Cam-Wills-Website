@@ -16,12 +16,12 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There! <span className="wave">👋🏻</span>
+                Hello!
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                My Name is
+                <strong className="main-name"> Cameron Wills</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -32,10 +32,11 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img src={homeLogo} alt="home pic" className="img-fluid" />
             </Col>
+            
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      {/* <Home2 /> */}
     </section>
   );
 }
