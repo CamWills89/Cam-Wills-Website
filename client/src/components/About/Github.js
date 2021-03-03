@@ -8,19 +8,19 @@ function Github() {
   const colourTheme = {
     background: "transparent",
     text: "#ffffff",
-    grade4: "#8400b8",
-    grade3: "#b22ff4",
-    grade2: "#b265f6",
-    grade1: "#c084f5",
+    grade4: "#141b86",
+    grade3: "#1f2795",
+    grade2: "#364586",
+    grade1: "#9293c5",
     grade0: "#ecd9fc",
   };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+        Days I <strong className="blue">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="CamWills89"
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}

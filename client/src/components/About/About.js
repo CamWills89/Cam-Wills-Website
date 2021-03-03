@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import profileImg from "../../Assets/profile/Profile1.jpg";
+import Github from "../About/Github";
 
 function About() {
   return (
@@ -23,33 +23,34 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              About <strong className="purple">Me</strong>
             </h1>
             <Aboutcard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "20px", paddingBottom: "5px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <Image src={profileImg} alt="about" className="img-fluid" rounded />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
           <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
+          <Techstack iconName="cib-html5" />
+          <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
+          <Techstack iconName="devicon-nodejs-plain-wordmark " />
+          <Techstack iconName="cib-redux" />
+          <Techstack iconName="cib-css3 " />
+          <Techstack iconName="cib-graphql" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <Techstack iconName="cib-mysql" />
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
@@ -61,8 +62,37 @@ function About() {
           <Techstack iconName="cib-postman" />
           <Techstack iconName="cib-zeit" />
           <Techstack iconName="cib-heroku" />
-        </Row>
+        </Row> */}
         <Github />
+
+        <Col md={12} className="home-about-social">
+          <h1>FIND ME ON</h1>
+          <p>
+            Feel free to <span className="blue">connect </span>with me
+          </p>
+          <ul className="home-about-social-links">
+            <li className="social-icons">
+              <a
+                href="https://github.com/CamWills89"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/cameronwills89/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </Col>
       </Container>
     </Container>
   );

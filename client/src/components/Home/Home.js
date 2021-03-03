@@ -6,6 +6,7 @@ import homeLogo from "../../Assets/home-svg.svg";
 import Particle from "../Particle";
 import Type from "./Type";
 
+
 function Home() {
   return (
     <section>

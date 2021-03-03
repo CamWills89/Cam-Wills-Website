@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import "../../style.css";
+import Techstack from "../About/Techstack";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import pdf from "../../Assets/Soumyajit-Resume.pdf";
@@ -38,59 +39,33 @@ function Resume() {
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
-        <Row className="resume">
-          <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
-            <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
-              content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-              ]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
-              content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
-              ]}
-            />
-            <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
-              content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
-              ]}
-            />
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
-            <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
-            />
-            <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
-            />
-            <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
-            />
-            <h3 className="resume-title">Ranks and Achivements</h3>
-            <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
-              ]}
-            />
-          </Col>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Techstack iconName="devicon-javascript-plain " />
+          <Techstack iconName="cib-html5" />
+          <Techstack iconName="devicon-mongodb-plain-wordmark" />
+          <Techstack iconName="devicon-express-original-wordmark" />
+          <Techstack iconName="devicon-react-original-wordmark" />
+          <Techstack iconName="devicon-nodejs-plain-wordmark " />
+          <Techstack iconName="cib-redux" />
+          <Techstack iconName="cib-css3 " />
+          <Techstack iconName="cib-graphql" />
+          <Techstack iconName="devicon-git-plain-wordmark" />
+          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <Techstack iconName="cib-mysql" />
+        </Row>
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Techstack iconName="cib-amazon-aws" />
+          <Techstack iconName="cib-visual-studio-code" />
+          <Techstack iconName="cib-anaconda" />
+          <Techstack iconName="cib-postman" />
+          <Techstack iconName="cib-zeit" />
+          <Techstack iconName="cib-heroku" />
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
