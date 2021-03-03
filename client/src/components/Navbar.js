@@ -4,8 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../Assets/icons/cw1.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -56,7 +54,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-user"></i> About
+                <i class="fas fa-info-circle"></i> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -65,7 +63,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fab fa-codepen"></i> Projects
+                <i class="fas fa-network-wired"></i> Projects
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -74,19 +72,8 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-file-alt"></i> Resume
+                <i class="fas fa-code"></i> Skills
               </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <i className="fas fa-code-branch"></i>{" "}
-                <i className="far fa-star"></i>
-              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

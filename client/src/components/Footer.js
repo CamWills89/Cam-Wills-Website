@@ -19,7 +19,9 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="hthttps://github.com/CamWills89"
+                href="https://github.com/CamWills89"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-github"></i>
@@ -28,9 +30,31 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/cameronwills89/"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:cameron.wills89@outlook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                <i class="far fa-envelope-open"></i>
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="tel:512.940.3380"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white" }}
+              >
+                <i class="fas fa-phone"></i>
               </a>
             </li>
           </ul>
