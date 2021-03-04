@@ -7,15 +7,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Title>{props.title}</Card.Title>
+      <Card.Img
+        variant="top"
+        rounded
+        fluid
+        src={props.imgPath}
+        alt="Card image"
+      />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank">
-          <i className="cil-external-link">&nbsp;</i>
-          {props.isBlog ? "View Blog" : "View Project"}
+          <i className="fab fa-github"></i>
+          &nbsp; View Project
         </Button>
       </Card.Body>
     </Card>

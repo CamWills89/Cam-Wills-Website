@@ -14,6 +14,13 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
+            md={5}
+            style={{ paddingTop: "20px", paddingBottom: "5px" }}
+            className="about-img"
+          >
+            <Image src={profileImg} alt="about" className="img-fluid" rounded />
+          </Col>
+          <Col
             md={7}
             style={{
               justifyContent: "center",
@@ -22,16 +29,9 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              About <strong className="purple">Me</strong>
+              About <strong className="blue">Me</strong>
             </h1>
             <Aboutcard />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "20px", paddingBottom: "5px" }}
-            className="about-img"
-          >
-            <Image src={profileImg} alt="about" className="img-fluid" rounded />
           </Col>
         </Row>
         <Github />

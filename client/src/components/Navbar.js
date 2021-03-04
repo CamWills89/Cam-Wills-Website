@@ -29,7 +29,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <h2>CW</h2>
+          <h2 className="blue">CW</h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

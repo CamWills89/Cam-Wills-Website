@@ -21,7 +21,7 @@ function Resume() {
           </Button>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="blue">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-javascript-plain " />
@@ -38,7 +38,7 @@ function Resume() {
           <Techstack iconName="cib-mysql" />
         </Row>
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="blue">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="cib-visual-studio-code" />

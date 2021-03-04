@@ -52,7 +52,7 @@ function AboutCard() {
               <span className="blue"> Web development</span> has always been
               something I wanted to do.
               <br />
-              It suits me, because there is always something new to
+              It suits me, because there is always something to
               <span className="blue"> learn!</span>
               <br />
               <br />

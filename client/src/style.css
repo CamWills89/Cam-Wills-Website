@@ -401,9 +401,6 @@ html {
   padding: 0 !important;
 }
 
-.blockquote-footer {
-  color: #888cc0 !important;
-}
 /* --------- */
 /* Projects */
 /* --------- */
@@ -423,7 +420,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(53, 59, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(53, 75, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -433,38 +430,7 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(79, 72, 144, 0.561) !important;
-}
-
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(77, 78, 161, 0.459) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(94, 88, 173, 0.65) !important;
+  box-shadow: 0 4px 4px 5px rgba(72, 83, 144, 0.561) !important;
 }
 
 .card-img-top {
