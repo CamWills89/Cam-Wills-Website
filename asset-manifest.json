@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Cam-Wills-Website/static/css/main.88732cb9.chunk.css",
+    "main.js": "/Cam-Wills-Website/static/js/main.813ff2f9.chunk.js",
+    "main.js.map": "/Cam-Wills-Website/static/js/main.813ff2f9.chunk.js.map",
+    "runtime-main.js": "/Cam-Wills-Website/static/js/runtime-main.2096d738.js",
+    "runtime-main.js.map": "/Cam-Wills-Website/static/js/runtime-main.2096d738.js.map",
+    "static/css/2.150d169a.chunk.css": "/Cam-Wills-Website/static/css/2.150d169a.chunk.css",
+    "static/js/2.d67c2328.chunk.js": "/Cam-Wills-Website/static/js/2.d67c2328.chunk.js",
+    "static/js/2.d67c2328.chunk.js.map": "/Cam-Wills-Website/static/js/2.d67c2328.chunk.js.map",
+    "static/js/3.ba1da80e.chunk.js": "/Cam-Wills-Website/static/js/3.ba1da80e.chunk.js",
+    "static/js/3.ba1da80e.chunk.js.map": "/Cam-Wills-Website/static/js/3.ba1da80e.chunk.js.map",
+    "index.html": "/Cam-Wills-Website/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/Cam-Wills-Website/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.88732cb9.chunk.css.map": "/Cam-Wills-Website/static/css/main.88732cb9.chunk.css.map",
+    "static/js/2.d67c2328.chunk.js.LICENSE.txt": "/Cam-Wills-Website/static/js/2.d67c2328.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Cam-Wills-Website/static/media/puff.be69e7a9.svg",
+    "static/media/Profile1.75eedad1.jpg": "/Cam-Wills-Website/static/media/Profile1.75eedad1.jpg",
+    "static/media/auto-tracker.907afda0.PNG": "/Cam-Wills-Website/static/media/auto-tracker.907afda0.PNG",
+    "static/media/book-search.8852a1f8.PNG": "/Cam-Wills-Website/static/media/book-search.8852a1f8.PNG",
+    "static/media/citizen-portal.cc6fe741.PNG": "/Cam-Wills-Website/static/media/citizen-portal.cc6fe741.PNG",
+    "static/media/home-svg.becd1465.svg": "/Cam-Wills-Website/static/media/home-svg.becd1465.svg",
+    "static/media/living-real.41080502.PNG": "/Cam-Wills-Website/static/media/living-real.41080502.PNG",
+    "static/media/shop-shop.c39c3fe6.PNG": "/Cam-Wills-Website/static/media/shop-shop.c39c3fe6.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2096d738.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.d67c2328.chunk.js",
+    "static/css/main.88732cb9.chunk.css",
+    "static/js/main.813ff2f9.chunk.js"
+  ]
+}
