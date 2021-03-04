@@ -44,7 +44,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 style={{ color: "white" }}
               >
-                <i class="far fa-envelope-open"></i>
+                <i className="far fa-envelope-open"></i>
               </a>
             </li>
             <li className="social-icons">
@@ -54,7 +54,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 style={{ color: "white" }}
               >
-                <i class="fas fa-phone"></i>
+                <i className="fas fa-phone"></i>
               </a>
             </li>
           </ul>

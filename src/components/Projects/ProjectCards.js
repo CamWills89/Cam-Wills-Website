@@ -10,8 +10,8 @@ function ProjectCards(props) {
       <Card.Title>{props.title}</Card.Title>
       <Card.Img
         variant="top"
-        rounded
-        fluid
+        rounded="true"
+        fluid="true"
         src={props.imgPath}
         alt="Card image"
       />

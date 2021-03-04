@@ -54,7 +54,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i class="fas fa-info-circle"></i> About
+                <i className="fas fa-info-circle"></i> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -63,7 +63,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i class="fas fa-network-wired"></i> Projects
+                <i className="fas fa-network-wired"></i> Projects
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -72,7 +72,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i class="fas fa-code"></i> Skills
+                <i className="fas fa-code"></i> Skills
               </Nav.Link>
             </Nav.Item>
           </Nav>

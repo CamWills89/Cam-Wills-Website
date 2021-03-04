@@ -9,7 +9,7 @@ import Github from "../About/Github";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid="true" className="about-section">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -18,7 +18,7 @@ function About() {
             style={{ paddingTop: "20px", paddingBottom: "5px" }}
             className="about-img"
           >
-            <Image src={profileImg} alt="about" className="img-fluid" rounded />
+            <Image src={profileImg} alt="about" className="img-fluid" rounded="true" />
           </Col>
           <Col
             md={7}

@@ -13,7 +13,7 @@ import bookSearch from "../../Assets/work/book-search.PNG";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid="true" className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
