@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import "../../style.css";
-import Techstack from "../About/Techstack";
+import Techstack from "./Techstack";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Resume() {
