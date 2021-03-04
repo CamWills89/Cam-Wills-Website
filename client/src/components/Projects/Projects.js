@@ -25,19 +25,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={autoTracker}
-              title="Auto Tracker"
-              description="This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device."
-              link="https://github.com/CamWills89/auto-tracker"
+              imgPath={livingReal}
+              title="Living Real"
+              description="A Realty Management Tool for a Private Owner. This is a 3-part functional site to advertise their properties, manage tenants and properties."
+              link="https://github.com/CamWills89/living-real"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={livingReal}
-              title="Living Real"
-              description="A Realty Management Tool for a Private Owner. This is a 3-part functional site to advertise their properties, manage tenants and properties."
-              link="https://github.com/CamWills89/living-real"
+              imgPath={autoTracker}
+              title="Auto Tracker"
+              description="This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device."
+              link="https://github.com/CamWills89/auto-tracker"
             />
           </Col>
 
