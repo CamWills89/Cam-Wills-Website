@@ -28,7 +28,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/Cam-Wills-Website">
           <h2 className="blue">CW</h2>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -44,7 +44,11 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/Cam-Wills-Website"
+                onClick={() => updateExpanded(false)}
+              >
                 <i className="fas fa-home"></i> Home
               </Nav.Link>
             </Nav.Item>
