@@ -9,6 +9,7 @@ function Techstack(prop) {
       <Col xs={4} md={2} className="tech-icons">
         <i className={`${prop.iconName} tech-icon-images`}></i>
       </Col>
+        <p>{prop.name}</p>  
     </div>
   );
 }

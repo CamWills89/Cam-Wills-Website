@@ -24,29 +24,39 @@ function Resume() {
           Professional <strong className="blue">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="cib-html5" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
-          <Techstack iconName="cib-redux" />
-          <Techstack iconName="cib-css3 " />
-          <Techstack iconName="cib-graphql" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
-          <Techstack iconName="cib-mysql" />
+          <Techstack iconName="devicon-javascript-plain " name="Javascript" />
+          <Techstack iconName="cib-html5" name="HTML" />
+          <Techstack iconName="devicon-mongodb-plain-wordmark" name="MongoDb" />
+          <Techstack
+            iconName="devicon-express-original-wordmark"
+            name="Express.js"
+          />
+          <Techstack
+            iconName="devicon-react-original-wordmark"
+            name="React.js"
+          />
+          <Techstack iconName="devicon-nodejs-plain-wordmark " name="Node.js" />
+          <Techstack iconName="cib-redux" name="Redux" />
+          <Techstack iconName="cib-css3 " name="CSS" />
+          <Techstack iconName="cib-graphql" name="GraphQL" />
+          <Techstack iconName="devicon-git-plain-wordmark" name="Git" />
+          <Techstack
+            iconName="devicon-bootstrap-plain-wordmark"
+            name="Bootstrap"
+          />
+          <Techstack iconName="cib-mysql" name="MYSQL" />
         </Row>
         <h1 className="project-heading">
           <strong className="blue">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-github" />
-          <Techstack iconName="cib-amazon-aws" />
-          <Techstack iconName="cib-postman" />
+          <Techstack iconName="cib-visual-studio-code" name="VS Code" />
+          <Techstack iconName="cib-github" name="Github" />
+          <Techstack iconName="cib-amazon-aws" name="AWS" />
+          <Techstack iconName="cib-kubernetes" name="Kubernetes" />
+          <Techstack iconName="cib-postman" name="Postman" />
           {/* <Techstack iconName="cib-zeit" /> */}
-          <Techstack iconName="cib-heroku" />
+          <Techstack iconName="cib-heroku" name="Heroku" />
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
