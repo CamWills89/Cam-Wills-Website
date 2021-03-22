@@ -16,7 +16,7 @@ My name is Cameron Wills. I am a Fullstack web developer. I am from South Africa
 
   ## Installation:
 
-   Make sure you have MongoDB installed on your machine (if you don't, follow the instructions on the MongoDB Website). Clone the repo. Install dependencies with ```npm -i```. Run ```npm start``` to run the server. 
+Clone the repo. Install dependencies with ```npm -i```. Run ```npm start``` to run the server. 
 
 ## Technologies
   - JavaScript
